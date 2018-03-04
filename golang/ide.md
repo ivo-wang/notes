@@ -1,3 +1,20 @@
+# ide for golang 
+
+
+vscode 
+
+gocode: 			go get -u -v github.com/nsf/gocode
+godef: 				go get -u -v github.com/rogpeppe/godef
+golint: 			go get -u -v github.com/golang/lint/golint
+go-find-references: go get -u -v github.com/lukehoban/go-find-references
+go-outline: 		go get -u -v github.com/lukehoban/go-outline
+goreturns: 			go get -u -v sourcegraph.com/sqs/goreturns
+gorename: 			go get -u -v golang.org/x/tools/cmd/gorename
+
+
+
+
+# atom 
 http://www.open-open.com/lib/view/open1425047100812.html
 go 环境安装
 这一部分是最重要的，如果没有它，每次build的时候出现 too many errors 心里真的是非常难过的。
@@ -31,6 +48,7 @@ go get -u github.com/nsf/gocode
 go get -v code.google.com/p/rog-go/exp/cmd/godef
 go install -v code.google.com/p/rog-go/exp/cmd/godef
 
+github.com/sqs/goreturns
 
 gocode 提供代码补全
 
